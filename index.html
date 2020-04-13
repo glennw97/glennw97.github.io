@@ -77,11 +77,29 @@
      
                     <a class="index-link btn btn-outline-light" href="#"><i class="far fa-folder-open"></i> Folder</a>
                     <a class="index-link btn btn-outline-light" href="https://github.com/gerlanw" target="_blank"><i class="fab fa-github"></i> Github</a>
-                    <a class="index-link btn btn-outline-light" href="https://blog.gerlan.cn" target="_blank"><i class="fas fa-book"></i> Blog</a>
+                    <a class="index-link btn btn-outline-light" href="https://blog.glennwu.info" target="_blank"><i class="fas fa-book"></i> Blog</a>
                 </p>
             </main>
 
             <footer class="mastfoot mt-auto">
+		  <!-- 使用Meeting Js播放音乐 -->
+                <!-- require APlayer -->
+                <link rel="stylesheet" href="/aplayer_dist/APlayer.min.css">
+                <script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
+                <!-- require MetingJS -->
+                <script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
+                <meting-js
+	            server="netease"
+                type="song"
+                id="427606780"
+                fixed="true"
+                mini="true"
+                mutex="true"
+                volume="0.7"
+                lrc-type="1"
+	            >
+             </meting-js>
+ 
                 <div class="inner">
                     <p>
                         Powered by <a href="https://getbootstrap.com/" class="font-weight-bold text-muted">Bootstrap</a>
